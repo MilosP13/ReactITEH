@@ -4,7 +4,7 @@ import Cards from '../Cards';
 
 
 
-function Home() {
+function Planets() {
   return (
     <>
       <Cards />
@@ -14,4 +14,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Planets;

@@ -13,13 +13,13 @@ function Cards() {
               src='img/p1.jpg'
               text='Frozen Ice Dark Planet'
               label='Scary'
-              path='/sign-up'
+              path='/blue'
             />
             <CardFill
               src='img/p2.jpg'
               text='Deserted Sandstorm Planet'
               label='Deserted'
-              path='/sign-up'
+              path='/dust'
             />
           </ul>
           <ul className='cards__items'>
