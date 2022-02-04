@@ -27,19 +27,19 @@ function Cards() {
               src='img/p3.jpg'
               text='Deadly Toxic Gass Planet'
               label='Toxic'
-              path='/sign-up'
+              path='/toxic'
             />
             <CardFill
               src='img/p4.jpg'
               text='Cold Icy Mountains Planet'
               label='Freezy'
-              path='/sign-up'
+              path='/ice'
             />
             <CardFill
               src='img/p5.jpg'
               text='Sand-Water Mixed Planet'
               label='Crazy'
-              path='/sign-up'
+              path='/mix'
             />
           </ul>
         </div>
