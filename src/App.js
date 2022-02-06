@@ -24,6 +24,7 @@ function App() {
          <Route path='/planets' exact component={Planets} />
          <Route path='/sign-up' exact component={SignUp} />
 
+        {/*  stranice */}
          <Route path='/blue' component={BlueP} />
          <Route path='/dust' component={DustP} />
          <Route path='/ice' component={IceP} />
