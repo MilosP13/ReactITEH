@@ -15,7 +15,7 @@ function Navigacioni() {
 
   const [button, setButton] = useState(true);
   const showButton = () => {
-    if (window.innerWidth <= 960) {
+    if (window.innerWidth <= 950) {
       setButton(false);
     } else {
       setButton(true);
