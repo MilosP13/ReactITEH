@@ -1,0 +1,8 @@
+.oNama{
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    color: white;
+    background: url('/public/img/space1.jpg') center center/cover no-repeat;
+
+
+}

@@ -15,7 +15,7 @@ function Navigacioni() {
 
   const [button, setButton] = useState(true);
   const showButton = () => {
-    if (window.innerWidth <= 950) {
+    if (window.innerWidth <= 960) {
       setButton(false);
     } else {
       setButton(true);
@@ -54,7 +54,25 @@ function Navigacioni() {
                 Planets
               </Link>
             </li>
-            
+            <li className='nav-item'>
+              <Link
+                to='/aboutus'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About Us
+              </Link>
+            </li>
+
+            <li className='nav-item'>
+              <Link
+                to='/surprise'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Surprise
+              </Link>
+            </li>
 
             <li>
               

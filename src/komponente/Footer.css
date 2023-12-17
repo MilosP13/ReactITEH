@@ -1,0 +1,18 @@
+.footer{
+
+  
+  background: linear-gradient(90deg, rgb(92, 45, 45) 0%, rgb(26, 23, 23) 100%);
+ 
+  color: 'white';
+  text-Align: 'center';
+  padding: '0.5rem';
+  position: 'fixed';
+  bottom: 0;
+  width: '100%';
+ 
+}
+
+.dugmad {
+  margin-top: 5px;
+}
+
