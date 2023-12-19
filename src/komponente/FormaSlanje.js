@@ -38,10 +38,10 @@ const [selectedCountry, setSelectedCountry] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can add validation logic
+    
     if (name && email && message) {
       setSubmitted(true);
-      // You can perform other actions here like sending data to backend, etc.
+     
       setName('');
       setEmail('');
       setMessage('');

@@ -10,13 +10,13 @@ const PlanetOfTheDay = () => {
       try {
         const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=vCPn0F95WzAGfZGmbQtBwIsF9Gtvfz3qhZPhDptC`);
         if (!response.ok) {
-          throw new Error('Failed to fetch data');
+          throw new Error('Failed to fetch');
         }
         const data = await response.json();
         setApodData(data);
         setLoading(false);
       } catch (error) {
-        console.error('Error fetching APOD data:', error);
+        console.error('Error while fetching:', error);
         setLoading(false);
       }
     };

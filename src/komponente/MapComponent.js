@@ -21,10 +21,10 @@ const MapComponent = () => {
 
     const marker = L.marker([37.2431, -115.7930], { title: 'Area 51' }).addTo(map);
 
-    // Bind popup to the marker and adjust the popup offset
+    // markeer
     marker.bindPopup("<b>Area 51</b>", { offset: L.point(13, 10) }).openPopup();
 
-    // Adjust marker icon anchor
+    // marker nije centriran sa tekstom
     marker.on('popupopen', () => {
       marker.setIcon(DefaultIcon);
       marker.update();
