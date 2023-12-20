@@ -67,7 +67,7 @@ const [selectedCountry, setSelectedCountry] = useState('');
                 <div className='forma-levo'>
                         
                         
-                   <img className='slika-levo' src={levoplaneta} />
+                   <img className='slika-levo' src={levoplaneta} alt='slika' />
 
                     </div>
 
