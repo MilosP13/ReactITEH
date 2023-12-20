@@ -3,10 +3,14 @@ import '../App.css';
 import { Button } from './Button';
 import './Main.css';
 import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+
+
 
 function Main() {
+  const location = useLocation();
   return (
-    <div className='hero-container'>
+    <div data-testid="main-1" className='hero-container'>
       
       <h1>WELCOME PLANET LOVER</h1>
       <p>Explore planets with us!</p>
