@@ -7,7 +7,6 @@ const SIZES = ['btn--medium', 'btn--large'];
 
 
 
-//valjda radi
 export const Button = ({
   children,
   type,

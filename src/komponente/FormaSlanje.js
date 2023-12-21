@@ -99,14 +99,14 @@ const [selectedCountry, setSelectedCountry] = useState('');
                              <div className='forme-div'>
 
                             <label className='forma-label'>Choose your country</label> <br></br>
-                            <select className='forma-input' placeholder='-' name="country" value={selectedCountry} onChange={handleCountryChange} required>
+                            <select className='forma-input' placeholder='-' name="country" value={selectedCountry}
+                             onChange={handleCountryChange} required>
                             <option value="" disabled>Select a country</option>
                                 {countries.map((country, index) => (
                                     <option key={index} value={country.name.common}>
                                  {country.name.common}
                                     </option>
                                  ))}
-
                             </select>
 
                             </div>
